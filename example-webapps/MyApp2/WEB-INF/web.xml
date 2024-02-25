@@ -1,0 +1,13 @@
+<web-app>
+	<servlet>
+		<!-- Can be any name, same as servlet-class is not necessary --> 
+		<servlet-name>MyFirstServlet</servlet-name>
+		<!-- This name should exactly match with class name of servlet -->
+		<servlet-class>MyFirstHttpServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<!-- servlet-name inside servlet and servlet-mapping should match -->
+		<servlet-name>MyFirstServlet</servlet-name>
+		<url-pattern>/abc</url-pattern>
+	</servlet-mapping>
+</web-app>
