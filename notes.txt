@@ -1,0 +1,2 @@
+service method of GenericServlet detect the type of request(GET, POST e.t.c) and then calls 
+respective doGet, doPost method
